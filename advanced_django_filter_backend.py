@@ -2,7 +2,7 @@ from django.core.exceptions import FieldError
 from django_filters import utils
 from django_filters.rest_framework import DjangoFilterBackend
 
-from app.internal_logic.exceptions import IncorrectParametersException
+from exceptions import IncorrectParametersException
 
 
 class AdvancedDjangoFilterBackend(DjangoFilterBackend):

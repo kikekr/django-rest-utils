@@ -3,9 +3,9 @@ import json
 
 from django.db.models import Model
 
-from app.internal_logic.exceptions import ResourceNotFoundException
-from app.tests.views.custom_api_client import CustomAPIClient
-from app.utils.dates import serialize_date
+from custom_api_client import CustomAPIClient
+from exceptions import ResourceNotFoundException
+from utils.dates import serialize_date
 
 
 class CustomViewTestCase:
